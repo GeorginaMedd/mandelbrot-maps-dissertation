@@ -1,0 +1,76 @@
+/* https://coolors.co/237197-6baa75-84dd63-c33149-b47eb3
+https://www.w3schools.com/css/css_tooltip.asp */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip */
+
+.suggestions {
+  border: 1px solid #999;
+  border-top-width: 0;
+  /* border-radius: 10px; */
+  list-style: none;
+  margin-top: 0;
+  max-height: 143px;
+  overflow-y: auto;
+  padding-left: 0;
+  /* width: calc(120px + 1rem);  */
+  /* width: calc(120px); */
+  width: calc(104px);
+  position: absolute;
+  left: 0%;
+  z-index: 999;
+  /*  */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-size: 15px;
+}
+
+.suggestions li {
+  padding: 0.5rem;
+}
+
+.suggestion-active {
+  /* previously black #efecca*/
+  background-color: #e6c79c;
+  text-align: center;
+  /* background-color: black; */
+}
+/* .suggestion-active, */
+.suggestions li:hover {
+  /* prev: 008f68 fae042 now: BAD7F2 FAFAC6 bad7f2 83bcff E6C79C*/
+  background-color: #fafac6;
+  color: #e6c79c;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.suggestions li:not(:last-of-type) {
+  border-bottom: 1px solid #999;
+}
+
+.answer-div {
+  position: relative;
+  /* z-index: 10; */
+}
+
+.input-div {
+  z-index: 10;
+}
+
+/* https://css-tricks.com/how-to-stack-elements-in-css/ */
+
+.input {
+  font-size: 12px;
+  line-height: 100%;
+  width: 100px;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  border-radius: 10px;
+  /* border: none; efecca*/
+  border: 1px solid #e6c79c;
+  color: white;
+  background-color: #e6c79c;
+  /* blanchedalmond */
+  text-align: center;
+}

@@ -1,0 +1,85 @@
+/* https://www.w3schools.com/css/css_tooltip.asp */
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip */
+
+.tooltip img {
+  width: 200px;
+  height: auto;
+  padding: 0px 50px;
+  /* text-align: center; */
+  /* z-index: 999; */
+}
+
+/* border-bottom: 1px dotted black; */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* background-color: hsla(54, 85%, 59%, 0.992); */
+  background-color: #bad7f2;
+  /* fafac6 587B7F */
+  color: #587b7f;
+  border-radius: 30px;
+  padding: 2px;
+  justify-content: center;
+  cursor: pointer;
+  /* z-index: 999; */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #bad7f2;
+  /* color: #fafac6; */
+  color: #587b7f;
+  /* text-align: center; */
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 999;
+  top: 100%;
+  left: 0%;
+  margin-left: 0px; /* This is adjusted to 0 as we want the popup to align with the word embedded in the sentence. */
+  /* z-index: 999; */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  border-top-left-radius: 0px;
+  /* z-index: 999; */
+}
+.tooltip:hover {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* z-index: 999; */
+}
+
+.tooltip:hover .tooltip {
+  border-bottom-left-radius: 0px;
+  /* z-index: 999; */
+}
+
+#gloss_img {
+  text-align: center;
+}
+
+.tooltiptext {
+  text-align: left;
+  justify-content: center;
+  /* z-index: 999; */
+}
+
+.gloss-desc {
+  justify-content: left;
+  text-align: left;
+  /* z-index: 999; */
+  /* padding: 0px 10px; */
+}
+
+.gloss-description {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3px;
+}

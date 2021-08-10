@@ -1,0 +1,39 @@
+.welcome-popup {
+  /* background: #237197; darker*/
+  /* background: #116592; */
+  /* 26759C */
+  /* background: #3184a8; lighter */
+  /* border-radius: 1%; */
+  width: 43vw;
+  /* height: 32vw; */
+  /* text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  transition: all 3s; */
+  position: absolute;
+  /* top: 50%; */
+  right: 0%;
+  /* transform: translate(-50%, -50%); */
+  z-index: 10;
+}
+
+.modes {
+  display: flex;
+}
+
+.modes a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2vw;
+  /* background: lightskyblue; */
+  /* background: #237197; darker*/
+  background: #3184a8;
+  /* background: #3184a8; lighter*/
+  border-radius: 20%;
+  margin: 30px;
+  padding: 10px 0px;
+  width: 300px;
+}

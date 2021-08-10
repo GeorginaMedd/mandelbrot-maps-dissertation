@@ -1,0 +1,414 @@
+/* https://coolors.co/116592-bdadea-bea2c2-f2f5ea-5da399 */
+/* https://coolors.co/116592-f4e04d-d72638-bad7f2-f2bac9-61b971-3d8f4b-df99f0-efecca-6e9362 */
+/* https://coolors.co/116592-f7b1ab-c6e2e9-5b8266-587b7f-b1ede8-03045e-0b0033-4a7c59 */
+.education-popup-content {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* background: #3184A8; */
+  /* background: #237197; */
+  /* background: #0E5175; */
+  background: #116592;
+  border-radius: 1%;
+  width: 100vw;
+  /* height: 10vw; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  position: absolute;
+  /* position: relative; */
+  z-index: 10;
+  /* overflow: scroll; */
+}
+/* .education-popup-content p {
+  overflow: auto;
+} */
+
+
+.addScroll {
+  overflow: auto;
+}
+
+.expand-collapse-div {
+  margin: 5px;
+}
+
+.PermalinkOverlay {
+  background: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+  position: fixed;
+  z-index: 5;
+}
+
+/* https://stackoverflow.com/questions/45517499/how-to-darken-everything-on-a-page-apart-from-a-div-on-button-click */
+
+.left {
+  right: 50vw;
+  height: 100vw;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  /* bottom: 0;
+  left: 0; */
+  overflow: auto;
+  position: fixed;
+  /* right: 0;
+  top: 0; */
+  z-index: 5;
+}
+
+.right {
+  left: 50vw;
+  height: 100vw;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  /* bottom: 0;
+  left: 0; */
+  overflow: auto;
+  position: fixed;
+  /* right: 0;
+  top: 0; */
+  z-index: 5;
+}
+
+.topic-content {
+  /* padding: 10vw; */
+  /* position: absolute;
+  top: 0vh; */
+  /* position: absolute; */
+  position: absolute;
+  font-size:1.05vw;
+  /* font-size:calc(12px + 1.5vw); */
+  /* height: 23vh; */
+  /* top: 2em; */
+  top: 1.5vh;
+  /* left: 10em; */
+  padding: 0vw 10vw 0vw 12vw;
+  /* z-index: 12; */
+}
+
+.test {
+  overflow: scroll;
+  display: inline;
+}
+.educational-content {
+  z-index: 10;
+}
+.explore-hover {
+  display: none;
+  font: 10px;
+}
+/* 
+.experimental-div {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 5vh;
+  width: 100vw;
+  top: 0vh;
+  left: 2vw;
+}
+.one {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+}
+.two {
+  position: fixed;
+  top: 0vh;
+  left: 20vw;
+}
+.three {
+  position: absolute;
+  top: 0vh;
+  left: 40vw;
+} */
+
+.topic-name-div-content {
+  /* position: absolute;
+  top: 0em;
+  left: 1em;  */
+  z-index: 10;
+  position: -webkit-sticky;
+  position: sticky;
+  /* height: 5vh; */
+  top: 0vh;
+  /* width: 1vw; */
+  /*left: 2vw;
+  transform: translate(none, -20%); */
+}
+
+.topic-name-content {
+  position: fixed;
+  top: 0vh;
+  left: 2vw;
+  font-size: 1vw;
+  /* left: 5vw; */
+}
+
+.exit-div {
+  z-index: 12;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 5vh;
+  width: 100vw;
+  left: 80vw;
+  /* right: 2vw; */
+  /* top: 0vh;
+  justify-content: flex-end; */
+  /* transform: translate(100%, 0%); */
+
+  /* position: absolute;
+  top: 0vw;
+  right: 0.1vw;
+  transform: translate(0%, 0%); */
+}
+
+.exit {
+  position: fixed;
+  top: 0vh;
+  /* left: 95vw; */
+  right: 1vw;
+  color: white;
+  text-decoration: none;
+  font: helvetica;
+  font-size: 1vw;
+  cursor: pointer;
+}
+
+.exit p {
+  margin-bottom: 0;
+  margin-right: 1vw;
+}
+
+.expand-div {
+  /* position: absolute;
+  top: 1.5vw;
+  right: 0.1vw;
+  transform: translate(0%, 0%); */
+  position: -webkit-sticky;
+  position: sticky;
+  height: 1vh;
+  z-index: 20;
+}
+
+.expand-content {
+  position: fixed;
+  top: -0.5vw;
+  right: 1vw;
+  /* left: 95vw; */
+  color: white;
+  text-decoration: none;
+  font: helvetica;
+  font-size: 1vw;
+  margin-right: 1vw;
+}
+.expand-collapse-div {
+  cursor: pointer;
+}
+
+.expand-content p {
+  margin-top: 0;
+  cursor: pointer;
+  /* margin-left: 1vw; */
+}
+/* https://uxdesign.cc/position-stuck-96c9f55d9526 */
+/* https://www.w3schools.com/css/css_margin.asp */
+.arrow-button-div {
+  /* position: absolute; */
+  /* position: -webkit-sticky;
+  position: sticky;
+  height: 10vh; */
+  /* bottom: 2%; */
+  /* left: 50%; */
+
+  /* bottom: -0.5vw;
+  right: 1vw; */
+
+  position: -webkit-sticky;
+  position: sticky;
+  height: 1vh;
+  bottom: 0;
+  right: 1vw;
+  z-index: 10;
+
+  /* transform: translate(0%, 100%); */
+  margin: auto;
+}
+
+.arrow-button-div-inner {
+  position: fixed;
+  /* top: 29vh; */
+  bottom: 71vh;
+  right: 1vw;
+}
+
+.prev-button {
+  position: absolute;
+  left: 1vw;
+  cursor: pointer;
+}
+.next-button {
+  position: absolute;
+  left: 1vw;
+  cursor: pointer;
+}
+
+.arrow-button-div a {
+  color: white;
+  text-decoration: none;
+  font-size: 1vw;
+  /* background: lightskyblue; */
+  background: #3184a8;
+  border-radius: 30%;
+  margin: 30px;
+  padding: 2px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.select-another-topic {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 4vh;
+  bottom: 2vh;
+  z-index: 20;
+  width: 10vw;
+}
+/* .select-new-topic-text {
+  position: -webkit-sticky;
+  position: sticky;
+  height: 1vh;
+  bottom: 0;
+  z-index: 20;
+
+  text-decoration: none;
+  font-size: 0.8vw;
+  position: absolute;
+  bottom: 1vw;
+  left: 2vw;
+}*/
+/* .select-another-topic-text  */
+/* position: fixed; */
+/* bottom: 1.5vw; */
+/* right: 1vw; */
+
+.select-another-topic-text {
+  position: fixed;
+  /* bottom: 1vw; */
+  left: 2vw;
+
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.8vw;
+  z-index: 20;
+}
+/* .select-another-topic p {
+  position: fixed;
+  bottom: 1vw;
+  left: 2vw;
+
+  text-decoration: none;
+  font-size: 0.8vw;
+} */
+
+.page-number-div {
+  text-decoration: none;
+  font-size: 1vw;
+  position: absolute;
+  bottom: -0.5vw;
+  right: 1vw;
+}
+
+.hide-content-from-header {
+  /* background: #237197; */
+  background: #116592;
+  position: fixed;
+  /* background: white; */
+  width: 100vw;
+  height: 5vh;
+  z-index: 11;
+  top: 0;
+}
+/* Don't need this anymore */
+/* .hide-content-from-footer {
+  background: #116592;
+  position: fixed;
+  width: 100vw;
+  height: 3vh;
+  z-index: 11;
+  top: 27vh;
+} */
+
+.warpping-button {
+  background-color: #0f084b;
+  /* 1c6a98 587b7f 0F084B */
+  color: white;
+  border-radius: 10px;
+  border: medium solid #6789be;
+}
+
+.progress-bar-position-outer {
+  /* we no longer need it sticky! :) */
+  /* position: -webkit-sticky;
+  position: sticky;
+  height: 4vh;
+  top: 29vh;
+  z-index: 12; */
+
+  position: absolute;
+  height: 4vh;
+  top: 20vh;
+  z-index: 10;
+}
+
+.progress-bar-position {
+  position: fixed;
+  left: 15vw;
+  top: 27.5vh;
+}
+
+.opaque-box {
+  width: 50%;
+  height: 100%;
+  background: #e1e0df;
+  position: fixed;
+  top: 0%;
+}
+
+.left {
+  left: 50vw;
+}
+
+.right {
+  right: 50vw;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+a {
+  transition: all 0.5s;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+.partial-show {
+  opacity: 0.9;
+}
+
+.test {
+  position: relative;
+}
+
+.makeTextBlack {
+  color: black;
+  opacity: 0.9;
+}

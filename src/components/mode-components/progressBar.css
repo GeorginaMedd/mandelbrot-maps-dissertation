@@ -1,0 +1,32 @@
+.progress-bar-div {
+  position: relative;
+}
+.progress-bar {
+  border-color: white;
+  border-width: thick;
+  background-color: #3184a8;
+  border-radius: 50px;
+  color: black;
+  height: 1.5vh;
+  width: 70vw;
+  z-index: 100;
+  position: absolute;
+  /* top: 20vh; */
+}
+
+.progress-bar-inner {
+  border-radius: 50px;
+  /* background-color: rgb(54, 168, 60); */
+  /* background-color: #5da399; */
+  /* background-color: #bdd9bf; */
+  /* background-color: #7ea172; */
+  /* almost perfect colour below*/
+  /* background-color: #6e9362; */
+  background-color: #639353;
+  height: 1.5vh;
+  width: 35vw;
+  z-index: 100;
+  position: absolute;
+  /* top: 20vh; */
+  transition: width 0.3s ease-in-out;
+}

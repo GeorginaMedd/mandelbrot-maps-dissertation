@@ -1,0 +1,177 @@
+.guided-popup {
+  background: #116592;
+  border-radius: 1%;
+  width: 100vw;
+  height: 15vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  position: absolute;
+  z-index: 10;
+}
+
+.guided-header {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 2vh;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  white-space: nowrap;
+}
+
+.guided-content {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  /* top: 4vh; */
+  padding: 0vw 10vw 0vw 12vw;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  white-space: nowrap;
+}
+
+/* .modes {
+    display: flex;
+}
+
+.modes a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2vw;
+    background: lightskyblue;
+    border-radius: 20%;
+    margin: 30px;
+    padding: 10px 0px;
+    width: 300px;
+} */
+
+.explore-hover {
+  display: none;
+  font: 10px;
+}
+
+.cross-div-guided {
+  position: absolute;
+  top: 1vh;
+  right: 1vw;
+  /* transform: translate(0%, 0%); */
+}
+
+.cross-guided {
+  color: white;
+  text-decoration: none;
+  font: helvetica;
+}
+.prog-bar-loc {
+  position: absolute;
+  bottom: 3vh;
+  /* margin: auto;
+  left: 50%;
+  transform: translate(-50%, 0%); */
+  left: 15vw;
+}
+.guided-next {
+  position: absolute;
+  /* bottom: 2.5vw; */
+  bottom: 1vh;
+  right: 0%;
+  /* top: 2.5vh; */
+  /* left: 50%;
+  transform: translate(-50%, 0%); */
+}
+
+.guided-next a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1vw;
+  background: lightskyblue;
+  border-radius: 30%;
+  margin: 1.2vw;
+  padding: 5px 10px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.guided-back-to-main a {
+  text-decoration: none;
+  font-size: 1vw;
+  position: absolute;
+  bottom: 1vw;
+  left: 2vw;
+}
+
+.page-number-div {
+  text-decoration: none;
+  font-size: 1vw;
+  position: absolute;
+  bottom: -0.5vw;
+  right: 1vw;
+}
+
+.opaque-box {
+  width: 50%;
+  height: 100%;
+  background: #e1e0df;
+  position: fixed;
+  top: 0%;
+}
+
+.left {
+  left: 50vw;
+}
+
+.right {
+  right: 50vw;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+a {
+  transition: all 0.5s;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
+
+.partial-show {
+  opacity: 0.9;
+}
+
+.left-guided {
+  right: 50vw;
+  height: 100vw;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  /* bottom: 0;
+  left: 0; */
+  overflow: auto;
+  position: fixed;
+  /* right: 0;
+  top: 0; */
+  z-index: 5;
+}
+
+.right-guided {
+  left: 50vw;
+  height: 100vw;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+  /* bottom: 0;
+  left: 0; */
+  overflow: auto;
+  position: fixed;
+  /* right: 0;
+  top: 0; */
+  z-index: 5;
+}
